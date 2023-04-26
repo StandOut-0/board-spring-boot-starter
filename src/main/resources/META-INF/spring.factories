@@ -1,0 +1,5 @@
+#Spring Boot 자동 구성 (auto-configuration)
+#com.himedia.jdbc.config.BoardAutoConfiguration 클래스를 자동으로 구성하도록 지정
+
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.himedia.jdbc.config.BoardAutoConfiguration
