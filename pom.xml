@@ -29,12 +29,22 @@
   	<artifactId>spring-boot-autoconfigure</artifactId>
   	<version>2.1.5.RELEASE</version>
   	</dependency>
-  
-  
-  
-  
   </dependencies>
-  
+
+
+	<!-- dependencyManagement
+	앞으로 새로운 라이브러리들을 계속 추가되는 라이브러리 버전을 일괄적으로 관리하고싶을때 사용 -->
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-dependencies</artifactId>
+				<version>2.1.5.RELEASE</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
   
   
   
