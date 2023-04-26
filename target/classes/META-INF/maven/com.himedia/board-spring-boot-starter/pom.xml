@@ -2,9 +2,11 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
+  <!-- 해당영역을 복붙해  패키지를 다른 프로젝트에 추가할 수 있다. -->
   <groupId>com.himedia</groupId>
   <artifactId>board-spring-boot-starter</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <!-- 해당영역을 복붙해  패키지를 다른 프로젝트에 추가할 수 있다. -->
   <packaging>jar</packaging>
 
   <name>board-spring-boot-starter</name>
